@@ -12,6 +12,13 @@ public class CarTrip {
         this.myGallonsUsed = myGallonsUsed;
     }
 
+    public CarTrip() {
+        myStartOdometer = 0;
+        myEndOdometer = 0;
+        myTime = 0.0;
+        myGallonsUsed = 0.0;
+    }
+
     public int getMyStartOdometer () {
         return myStartOdometer;
     }
